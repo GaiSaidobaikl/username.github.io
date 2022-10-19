@@ -1,0 +1,395 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    Color:black;
+}
+/*Шапка сайта*/
+.content{
+    background-image: url(/interior-3.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+    margin: 0;
+}
+.in-content{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 69px;
+}
+        /*Навигация шапки*/
+.link-nav{
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px 8px;
+    margin-left: 20px;
+}
+.link-nav:hover{
+    background-color: rgb(193, 123, 32);
+    border-radius: 0 6px 0 6px;
+}
+/*текст внутри изображения*/
+.in-text{
+    color: white;
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 412px;
+}
+.h1{
+    font-size: 58px;
+    margin-bottom: 25px;
+}
+.h4{
+    background:linear-gradient(rgb(156, 163, 193), rgb(187, 78, 78));
+    width: 220px;
+    padding: 16px;
+    border-radius: 0 5px 0 5px;
+    margin-bottom: 25px;
+}
+.text{
+    background-color: rgba(32, 35, 40, 0.7);
+    padding: 17px;
+    border-radius: 0 13px 0 13px;
+    line-height: 1.5;
+    font-family: helvetica;
+}
+
+
+/*Второй контент*/
+.two-content{
+    background-color: #171A1A;
+    height: 250px;
+    padding:  21px 85px;
+    color:  #6F7A8B;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hh1{
+    width:265px;
+    border-bottom: 1px solid white;
+    font-size: 28px;
+    padding-bottom: 1rem;
+}
+.in-two{
+    width:620px;
+}
+        /*Фирмы*/
+.firms p{
+    line-height: 1.5;
+    font-size: 14px;
+}
+.firms{
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+}
+        /*Адресс-*/
+.in-adres{
+    text-align: right;
+    position: relative;
+    margin-top: 45px;
+    float: right;
+    width: 360px;
+}
+.nomer{
+    color: white;
+    font-size: 25px;
+}
+        /*Кнопка*/
+.btn{
+    padding: 12px 30px;
+    background:linear-gradient(blue, rgb(43, 122, 213));
+    color:white;
+    width:250px ;
+    border-radius: 0 10px 0 10px;
+}
+
+
+
+/*Третий контент*/
+.three-content{
+    width: 100%;
+    height: 700px;
+    background-color: #FAFAFA;
+}
+
+.one-black{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-color: #202328;
+}
+.good-work{
+    position: relative;
+    margin: 60px auto;
+    width: 1000px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.good-text{
+    position: relative;
+    color: #a19f9f;
+    width: 50%;
+    border-right: 2px solid grey;
+    line-height: 1.7;
+    padding-right: 50px;
+    font-size: 14px;
+    text-align: right;
+}
+.good{
+    width: 400px;
+    float: right;
+    padding-left: 55px;
+}
+.good h2{
+    color:orangered
+}
+.good p{
+    color:white;
+    font-weight: bold;
+    font-size: 26px;
+}
+                /*Блок по центру*/
+
+.center-img{
+    position:absolute;
+    width: 1150px;
+    height: 350px;
+    margin-left: 170px ;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+            /*Карточка изображения*/
+
+.img1{
+    display: inline-block;
+    box-sizing: content-box;
+    background-color: #E4E6E8;
+    border-bottom: 2px solid gray;
+    width: 33%;
+    margin-left: 25px;
+}
+            /*Текст внутри карточки*/
+.map-text{
+    width: 330px;
+    font-size: 20px;
+}
+.diw{
+    position: relative;
+    max-width: 100%;
+    margin-top:20px;
+    padding-left: 20px;
+}
+                /*Кнопка*/
+.but{
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 42%;
+}
+.but .btn{
+    font-size: 14px;
+    background: linear-gradient(rgb(182, 104, 27),rgb(131, 131, 133));
+}
+
+
+
+/*Четвертый контент*/
+.four-content{
+    position: relative;
+    width: 1100px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+                /*4- IMG внутри контейнера*/
+.four-img{
+    width:470px;
+    height: 100% ;
+}
+                /*4 -Текст внутри коробки*/
+.text-four{
+    width: 540px;
+    height: 540px;
+}
+.four-text h2{
+    font-size: 16px;
+    color: rgb(150, 65, 4);
+}
+p{
+    line-height: 1.5;
+}
+            /*4-Маленькие блоки с текстом и иконкой*/
+.four-div{
+    position: absolute;
+    width: 265px;
+    height: 264px;
+    background-color: rgb(255, 255, 255);
+}
+.four-in{
+    position: relative;
+    font-size:17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+                /*Вторая маленькая коробка*/
+                /*Использован 2 класс одного блока*/
+.e{
+    position: relative;
+    float: right;
+}
+
+/*Пятый контент*/
+.five-content{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #202328;
+    background-image: url(/bg-image.png);
+    background-size: 100% 100%;
+    color: white;
+}
+                    /*Загаловок*/
+.hhh2{
+    padding-top: 20px;
+    font-size: 29px;
+}
+                    /*Внутренний общий блок*/
+.five-in{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+                    /*Текст отступ сверху*/
+.five-in p{
+    margin-top: 25px;
+}
+                    /*Карточки команий*/
+.partner{
+    position: relative;
+    width: 270px;
+    text-align: center;
+}
+
+
+/**/
+
+.six-content{
+    position: relative;
+    margin: 80px 80px;
+    width: 90%;
+    height: 600px;
+    
+}
+.six-zag{
+    text-align: center;
+}
+.six-img{
+    display: flex;
+    justify-content: space-around;
+}
+.six-card{
+    width:330px;
+    height: 450px;
+    border: 1px solid gray ;
+    background-color: rgb(247, 247, 247);
+    padding: 9px;
+}
+.six-card img{
+    width: 100%;
+    height: 230px;
+}
+.i7{
+    
+    opacity: 0.3;
+}
+.pp{
+    width: 100%;
+    height: 450px;
+}
+.pp p{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 15%;
+    font-size:18px;
+}
+.six{
+    width: 330px;
+}
+.six img{
+    width: 100%;
+    height: 450px;
+}
+
+.six-text{
+    border-left: 2px solid orangered;
+    padding-left: 12px;
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+/**/
+
+.seven-content{
+    position: relative;
+    width: 100%;
+    height: 460px;
+    background-color: #171A1A;
+}
+.seven-in{
+    width: 90%;
+    position: absolute;
+    margin:75px;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-seven{
+    width: 350px;
+}
+.sev-img{
+    margin-bottom: 20px ;
+}
+.korotko{
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.mi{
+    color:#FFFFFF;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+.marginr{
+    margin-right: 30px;
+}
+
+.menu{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    width: 30px;
+    border-bottom: 4px solid orangered;
+    padding-bottom: 10px;
+    
+}
+.nets{
+    width: 190px;
+}
+
